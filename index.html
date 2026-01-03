@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Towdah '25 | A Sacrifice of Praise</title>
+    <meta name="description"
+        content="Join us for Towdah '25 - A powerful church program dedicated to thanksgiving and praise.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Placeholder for FontAwesome -->
+    <!-- Using a generic FontAwesome CDN or we can rely on text icons if this fails, but usually we'd want local or reliable CDN. 
+         I'll stick to text chars or SVG if I can't guarantee content policy, but the user wants "nice caughting" so standard font awesome is good. 
+         I'll actually use a reliable CDN for icons like cdnjs or just use emojis/svgs for safety if I can't access external easily. 
+         I will use cdnjs for FontAwesome 6 as it's common. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">TOWDAH <span class="highlight">'25</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#details">Details</a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-in-up">
+            <h2 class="sub-headline">Celebrating the Goodness of God</h2>
+            <h1 class="main-headline">TOWDAH <span class="glow">'25</span></h1>
+            <p class="tagline">Enter His gates with Thanksgiving and His courts with Praise.</p>
+            <div class="badge-free">FREE ENTRY</div>
+
+            <div class="countdown-container" id="countdown-box">
+                <div class="time-box">
+                    <span id="days">00</span>
+                    <small>Days</small>
+                </div>
+                <div class="time-box">
+                    <span id="hours">00</span>
+                    <small>Hours</small>
+                </div>
+                <div class="time-box">
+                    <span id="minutes">00</span>
+                    <small>Minutes</small>
+                </div>
+                <div class="time-box">
+                    <span id="seconds">00</span>
+                    <small>Seconds</small>
+                </div>
+            </div>
+
+            <!-- This button will be hidden/changed when event starts -->
+
+        </div>
+
+        <div class="scroll-indicator">
+            <p>Scroll Down</p>
+            <i class="fas fa-chevron-down bouncing"></i>
+        </div>
+    </section>
+
+    <!-- Programme Outline Section (Hidden initially, shown after countdown) -->
+    <section id="programme-outline" class="section dark-bg hidden-section">
+        <div class="container reveal">
+            <div class="section-title">
+                <h2>Programme Outline</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="time">PART I</div>
+                    <div class="content">
+                        <h3>The Awakening</h3>
+                        <ul class="programme-list">
+                            <li>Opening Prayer & Praises</li>
+                            <li>Official Welcome (Voiceover): “Welcome to TOWDAH”</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="time">PART II</div>
+                    <div class="content">
+                        <h3>The Sacrifice of Praise</h3>
+                        <ul class="programme-list">
+                            <li>Dance Ministration: Nana Dancer (3 mins)</li>
+                            <li>Worship Ministration: Living Grace Bible Church (5 mins)</li>
+                            <li>Brigade Melodies: Echo Flux – 3rd Agona Swedru Boys’ & Girls’ Brigade (5 mins)</li>
+                            <li>Worship Ministration: The Worshippers</li>
+                            <li>Offertory: Levites of Praise (5 mins)</li>
+                            <li>Choral Ministration: Calvary Voices (5 mins)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="time">PART III</div>
+                    <div class="content">
+                        <h3>The Main Encounter</h3>
+                        <ul class="programme-list">
+                            <li>Official Introduction: Purpose of Gathering & Introduction of Host</li>
+                            <li>The Anthem: Host Choir – Royal Vessels</li>
+                            <li>Spoken Word Ministration</li>
+                            <li>Main Performance: Host Choir – Royal Vessels (10 mins)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="time">PART IV</div>
+                    <div class="content">
+                        <h3>Guest Ministrations</h3>
+                        <ul class="programme-list">
+                            <li>Minister Oscar (10 mins)</li>
+                            <li>Minister Abigail (10 mins)</li>
+                            <li>Minister Shaback (10 mins)</li>
+                            <li>Minister Aba Mavis (10 mins)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="time">PART V</div>
+                    <div class="content">
+                        <h3>Conclusion</h3>
+                        <ul class="programme-list">
+                            <li>Closing Prayer</li>
+                            <li>Closing Praises</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section dark-bg">
+        <div class="container reveal">
+            <div class="section-title">
+                <h2>What is Towdah?</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p><strong>Towdah</strong> is a Hebrew word for thanksgiving. It involves extending the hand in
+                        adoration, avowal, or acceptance.</p>
+                    <p>Towdah '25 is a special time set aside for <strong>Celebrating the Goodness of God</strong>. It
+                        is a night of free worship where we gather to recount His blessings and faithfulness.</p>
+                </div>
+                <div class="about-visual">
+                    <!-- Placeholder for an image or graphic element -->
+                    <div class="glowing-orb"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Details Section -->
+    <section id="details" class="section light-bg">
+        <div class="container reveal">
+            <div class="section-title">
+                <h2>Event Details</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="cards-grid">
+                <div class="card">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h3>Date</h3>
+                    <p>January 4th, 2026</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Time</h3>
+                    <p>Starts: 5:00 PM</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Venue</h3>
+                    <p>Adehye Assembly</p>
+                    <p>Agona Swedru</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">TOWDAH '25</div>
+            <div class="socials">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p>&copy; 2025 Church Programme. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
